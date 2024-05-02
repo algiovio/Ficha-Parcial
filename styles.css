@@ -47,13 +47,13 @@ html{
 .profile img {
     width: 35rem;
     height: auto;
-    margin-top: 11rem;
+    margin-top: 14rem;
     position: relative;
     border-radius: 1rem;
 }
 
 .datos {
-    margin-top: 11rem;
+    margin-top: 14rem;
     text-align: left;
 }
 
