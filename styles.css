@@ -19,12 +19,14 @@ html{
 }
 
 .container-titulo{
+    position: fixed;
     background-color: var(--primary-color);
     font-family:'jomhuria', 'Poppins', sans-serif;;
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--background-color);
     text-align: center;
+    width: 100%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
@@ -45,13 +47,13 @@ html{
 .profile img {
     width: 35rem;
     height: auto;
-    margin-top: 4rem;
+    margin-top: 11rem;
     position: relative;
     border-radius: 1rem;
 }
 
 .datos {
-    margin-top: 5rem;
+    margin-top: 11rem;
     text-align: left;
 }
 
@@ -81,12 +83,13 @@ a:hover{
 
     .profile {
       margin-right: 10rem;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .datos{
         margin-right: 10rem;
         margin-bottom: 12rem;
         font-size: 1rem;
+        margin-top: 0;
     }
 }
 
@@ -109,8 +112,3 @@ a:hover{
     padding-top: 1.5rem;
     margin-right: 10rem;
 }
-
-
-
-
-
